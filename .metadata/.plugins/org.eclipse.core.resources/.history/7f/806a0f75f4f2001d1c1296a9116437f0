@@ -1,0 +1,64 @@
+package practice;
+import java.util.Scanner;
+public class First {
+	public static void main(String args[])
+	{
+		
+		System.out.println("hello");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a 5 subjects marks:");
+		
+		System.out.println("enter a marks of english:");
+		int a=sc.nextInt();
+
+
+		System.out.println("enter a marks of marathi:");
+		int b=sc.nextInt();
+
+
+		System.out.println("enter a marks of hindi:");
+		int c=sc.nextInt();
+
+
+		System.out.println("enter a marks of physics:");
+		int d=sc.nextInt();
+
+
+		System.out.println("enter a marks of maths:");
+		int e=sc.nextInt();
+		
+		
+		float total=a+b+c+d+e;
+		
+		float per=(total/500)*100;
+		
+		System.out.println("percentage"+per);
+		
+		
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				
+				
+		
+		
+		
+		
+				
+			
+
+		
+	
+
+}
